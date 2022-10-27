@@ -19,64 +19,28 @@
 <h3>My Commerce</h3>
 
 <form method="post">
-    <center>
+    <div>
+        <label>Pesquisar</label>
         <input type="text" name="value" value="<?php echo $value?>" readonly>
         <br>
         <br>
-        <table border="1">
+        <table>
             <tr>
                 <td>
-                    <input type="submit" name="submit" value="7">
+                    <input type="image" name="product" width="200" height="170" src="https://a-static.mlcdn.com.br/280x210/sabao-liquido-omo-lavagem-perfeita-3l/magazineluiza/220976600/700f86b20daa3d114eda7de72f77ee64.jpg">
                 </td>
                 <td>
-                    <input type="submit" name="submit" value="8">
-                </td>
-                <td>
-                    <input type="submit" name="submit" value="9">
-                </td>
-                <td>
-                    <input type="submit" name="op" value="/">
+                    <input type="image" name="product" width="200" height="170" src="https://conteudo.imguol.com.br/c/noticias/08/2018/02/23/produtos-vendidos-com-medidas-quebradas-bala-cerveja-batata-frita-1519423107553_615x300.jpg">
                 </td>
             </tr>
             <tr>
                 <td>
-                    <input type="submit" name="submit" value="4">
+                    <input type="image" name="product" width="200" height="170" src="https://conteudo.imguol.com.br/c/noticias/4d/2018/02/23/coca-cola-em-lata-310-ml-1519416839230_300x300.jpg.webp">
                 </td>
                 <td>
-                    <input type="submit" name="submit" value="5">
-                </td>
-                <td>
-                    <input type="submit" name="submit" value="6">
-                </td>
-                <td>
-                    <input type="submit" name="op" value="*">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="submit" name="submit" value="1">
-                </td>
-                <td>
-                    <input type="submit" name="submit" value="2">
-                </td>
-                <td>
-                    <input type="submit" name="submit" value="3">
-                </td>
-                <td>
-                    <input type="submit" name="op" value="-">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="submit" name="submit" value="0">
-                </td>
-                <td colspan="2">
-                    <input type="submit" name="equals_to" value="=">
-                </td>
-                <td>
-                    <input type="submit" name="op" value="+">
+                    <input type="image" name="product" width="200" height="170" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRwUsnIEo2LnewCeBJtqc8mttmoKM2oeklIA&usqp=CAU">
                 </td>
             </tr>
         </table>
-    </center>
+    </div>
 </form>
