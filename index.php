@@ -24,33 +24,66 @@
     .btn-login{
         float: right;
         text-align: right;
+        margin: 1%;
+    }
+
+    .searchbar{
+        float: right;
+        margin: 1%;
     }
     
-    .align-to-center{
-        text-align: center;
+    .titlebar{
+        text-align: left;
+        background-color: #e8e8e8;
+        height: auto;
+        width: auto;
+        margin: 1%;
+    } 
+
+    .sidebar{
+        float: left;
+        background-color: #f5f5f5;
+        height: 100%;
+        margin: 1%;
     }
 
     .div-table-prods{
+        text-align: center;
         width: 70%;
     }
 </style>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-<h3 class="align-to-center">My Commerce</h3>
+<h2 class="titlebar">My Commerce</h2>
 
 <input class="btn-login" type="submit" name="login" value="Fazer login">
 
+<div class="searchbar">
+        <label>Pesquisar</label>
+        <input type="text" name="pesquisanomeproduto" value="">
+</div>
+
+<div class="sidebar">
+    <a href="#">Eletrônicos</a>
+    <br>
+    <a href="#">Smartphones</a>
+    <br>
+    <a href="#">TVs</a>
+    <br>
+    <a href="#">Ferramentas</a>
+    <br>
+    <a href="#">Decorações</a>
+</div>
+
 <br>
 <br>
 
-<form class="align-to-center" method="post">
-    <div class="align-to-center div-table-prods">
-        <label>Pesquisar</label>
-        <input type="text" name="pesquisanomeproduto" value="">
+<form method="post">
+    <div class="div-table-prods">
         <br>
         <br>
-        <table class="align-to-center">
+        <table>
             <tr>
                 <td>
                     <input type="image" name="product" width="200" height="170" src="https://a-static.mlcdn.com.br/280x210/sabao-liquido-omo-lavagem-perfeita-3l/magazineluiza/220976600/700f86b20daa3d114eda7de72f77ee64.jpg">
