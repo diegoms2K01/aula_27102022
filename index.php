@@ -22,29 +22,29 @@
 
 <style>
     .btn-login{
-        float: right;
+        display: block;
         text-align: right;
-        margin: 1%;
+        margin: 0% auto;
     }
 
     .searchbar{
-        float: right;
-        margin: 1%;
+        display: block;
+        text-align: right;
+        margin: 0% auto;
     }
     
     .titlebar{
-        text-align: left;
         background-color: #e8e8e8;
-        height: auto;
+        height: 6%;
         width: auto;
-        margin: 1%;
     } 
 
     .sidebar{
         float: left;
         background-color: #f5f5f5;
         height: 100%;
-        margin: 1%;
+        width: 8%;
+        text-align: center;
     }
 
     .div-table-prods{
@@ -55,13 +55,15 @@
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-<h2 class="titlebar">My Commerce</h2>
+<div class="titlebar">
+    <h2>My Commerce</h2>
 
-<input class="btn-login" type="submit" name="login" value="Fazer login">
+    <input class="btn-login" type="submit" name="login" value="Fazer login">
 
-<div class="searchbar">
-        <label>Pesquisar</label>
-        <input type="text" name="pesquisanomeproduto" value="">
+    <div>
+            <label>Pesquisar</label>
+            <input type="text" name="pesquisanomeproduto" value="">
+    </div>
 </div>
 
 <div class="sidebar">
